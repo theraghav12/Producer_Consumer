@@ -1,7 +1,7 @@
 # Producer-Consumer Problem using Semaphores in C++
 
 ## **Overview**
-This is a multithreaded C++ implementation of the classic **Producer-Consumer Problem** using **semaphores** for synchronization. 
+This is a multithreaded C++ implementation of the classic **Producer-Consumer Problem** using **semaphores** for synchronization.
 
 - The **Producer** adds items to a shared queue (`buffer`).
 - The **Consumer** removes items from the queue.
@@ -17,9 +17,8 @@ This is a multithreaded C++ implementation of the classic **Producer-Consumer Pr
 
 ---
 
-## **Prerequisites**
-- C++ compiler supporting **C++11** or later.
-- Threading library (`<thread>`, `<mutex>`, `<condition_variable>`).
+## **Sequence Diagram**
+![Producer-Consumer Sequence Diagram](images/Sequence.png)
 
 ---
 
